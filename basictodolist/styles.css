@@ -1,0 +1,134 @@
+html {
+  font-size: 16px;
+  background: #fff;
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #4C4541;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  text-decoration: underline;
+  color: #8EA66B;
+}
+
+/* Todo Item Section */
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  width: 50rem;
+  background: #FFF9D6;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.02rem solid #F2C46A;
+}
+
+#todoInput {
+  flex: 1;
+  padding: 0.8rem;
+  border: 0.01rem solid #D8A2A2;
+  border-radius: 0.5rem;
+  width: 40rem;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  margin-right: 0.4rem;
+}
+
+#addBtn {
+  padding: 0.8rem 1rem;
+  background: #D8A2A2;
+  width: 7rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3rem;
+  letter-spacing: 0.04rem;
+}
+
+#addBtn:hover {
+  background: #ac6c6c;
+}
+
+#todoList {
+  width: 50rem;
+  padding-inline-start: 0;
+}
+
+#todoList li {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  background: #D1EDD3;
+  border-radius: 0.5rem;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#todoList li>span {
+  flex: 1;
+}
+
+.taskCheckbox {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ACC5A6;
+}
+
+#todoList img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.check {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  background: #2A7C13;
+  margin: 0.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.delete {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  background: #8B2626;
+  margin: 0.4rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.check:hover {
+  background: #5ba447;
+}
+
+.delete:hover {
+  background: #b66262;
+}

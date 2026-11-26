@@ -36,6 +36,11 @@ h1 {
   border: 0.02rem solid #F2C46A;
 }
 
+#todoForm {
+  display: flex;
+  width: 100%;
+}
+
 #todoInput {
   flex: 1;
   padding: 0.8rem;
@@ -85,6 +90,7 @@ h1 {
 
 #todoList li>span {
   flex: 1;
+  white-space: pre-wrap;
 }
 
 .taskCheckbox {

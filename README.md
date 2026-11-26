@@ -23,6 +23,16 @@ Each exercise or project should include:
 3. Run locally using a static server, framework CLI, or live preview.
 4. Review the notes and add your own improvements or variations.
 
+## Live Pages
+
+Open these projects directly through GitHub Pages:
+
+- [Basic Digital Clock](https://kyduyennguyen.github.io/frontendexercises/basicdigitalclock/index.html)
+- [Basic Todo List](https://kyduyennguyen.github.io/frontendexercises/basictodolist/basictodolist.html)
+- [HTML Challenge](https://kyduyennguyen.github.io/frontendexercises/htmlchallenge/index.html)
+- [Restaurant Web Layout](https://kyduyennguyen.github.io/frontendexercises/restaurantweblayout/index.html)
+- [Website](https://kyduyennguyen.github.io/frontendexercises/website.html)
+
 ## Suggested Exercises
 
 - Responsive layout practice
